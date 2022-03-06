@@ -1,0 +1,2 @@
+[{"bucket":"extras","description":"Skinnable volume controller and OSD.","homepage":"https://3rvx.com/","manifestURL":"https://github.com/lukesampson/scoop-extras/tree/master/bucket/3rvx.json","name":"3rvx","version":"2.9.2"},
+{"bucket":"extras","description":"Allows you to configure various aspects of the Windows taskbar.","homepage":"https://rammichael.com/7-taskbar-tweaker","manifestURL":"https://github.com/lukesampson/scoop-extras/tree/master/bucket/7tt.json","name":"7tt","version":"5.12.3"}]
