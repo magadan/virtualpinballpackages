@@ -14,7 +14,7 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
           <Link to="/">Shovel</Link>
         </Heading>
         <Heading size="sm">
-          Find <A href="https://scoop.sh">scoop</A> manifests instantly from the comfort of your browser
+          Find <A href="https://scoop.sh">Virtual Pinball Packages</A> instantly from the comfort of your browser
         </Heading>
         {props.children}
       </Box>
