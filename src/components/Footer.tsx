@@ -12,7 +12,7 @@ function Footer(props: React.ComponentPropsWithRef<"footer">) {
       <Box pt="2rem" pb="2rem" pl="20vw" pr="20vw" bg="white">
         Virtual Pinball Packages v{version} is{" "}
         <A href="https://scoop.sh/">a web search app to scoop virtual pinball bucket</A>. To install packages to you Pinball Setup, you need to use scoop project
-        a command line installer by{" "} Wesite created with Shovel OpenSource Project.
+        a command line installer. This wesite is created with Shovel OpenSource Project.
         <A href="https://scoop.sh/">
           Scoop
         </A>
