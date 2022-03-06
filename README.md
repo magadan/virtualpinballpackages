@@ -20,5 +20,4 @@ MIT
 
 This software builds on the work of contributors to these projects:
 * [scoop](https://github.com/lukesampson/scoop)
-* [scoop buckets](https://github.com/lukesampson/scoop/blob/master/buckets.json)
-* Projects as listed in the package.json 
+
