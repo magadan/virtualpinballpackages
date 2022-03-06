@@ -11,11 +11,11 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
     <header {...props}>
       <Box pt="1rem" pb="1rem" pl="20vw" pr="20vw" bg="gray.100">
         <Heading size="xl">
-		  <img src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball"></img>
+		  <img class="center" src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball"></img>
           <Link to="/"></Link> 
         </Heading>
         <Heading size="sm">
-          Find <A href="https://github.com/magadan/mgd-packages/tree/master/bucket">Virtual Pinball Resources</A>, like tables, image wheels and etc, instantly from the comfort of your browser and install with scoop.
+          Find <A href="https://github.com/magadan/mgd-packages/tree/master/bucket">Virtual Pinball Resources</A> instantly from the comfort of your browser, like tables, wheels images and etc  and install with scoop.
 		  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Vpinball_cover.png" alt="Visual Pinball"></img>
         </Heading>
         {props.children}
