@@ -12,7 +12,7 @@ export function ManifestsProvider(props: React.ComponentPropsWithRef<any>) {
   async function getManifests() {
     try {
       const response = await fetch(
-        "manifests.json"
+        "https://virtualpinballpackages.vercel.app/manifests.json"
       );
       const json = await response.json();
       setManifests(json as Manifest[]);
