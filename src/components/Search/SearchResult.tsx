@@ -60,9 +60,7 @@ function SearchResult(props: SearchResultProps) {
       <p>
         <CopyCode code={`scoop install ${props.manifest.name}`} />
       </p>
-	   <p>
-        <Text>{props.manifest.license}</Text>
-      </p>
+
       {props.children}
     </VStack>
   );
