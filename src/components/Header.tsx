@@ -12,7 +12,6 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
       <Box pt="1rem" pb="1rem" pl="20vw" pr="20vw" bg="gray.100">
         <Heading size="xl">
 		  <img src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball"></img>
-          /** <Link to="/">Virtual Pinball Packages</Link> */ 
         </Heading>
         <Heading size="sm">
           Find <A href="https://virtualpinballpackages.vercel.app/search">Virtual Pinball Resources, like tables, image wheels and etc </A> instantly from the comfort of your browser and install with scoop.
