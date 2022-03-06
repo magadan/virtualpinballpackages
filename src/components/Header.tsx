@@ -11,7 +11,7 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
     <header {...props}>
       <Box pt="1rem" pb="1rem" pl="20vw" pr="20vw" bg="gray.100">
         <Heading size="xl">
-          <Link to="/">Shovel</Link>
+          <Link to="/">Virtual Pinball Packages</Link>
         </Heading>
         <Heading size="sm">
           Find <A href="https://scoop.sh">Virtual Pinball Packages</A> instantly from the comfort of your browser
