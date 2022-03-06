@@ -14,7 +14,7 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
           <Link to="/">Virtual Pinball Packages</Link>
         </Heading>
         <Heading size="sm">
-          Find <A href="https://virtualpinballpackages.vercel.app/search">Virtual Pinball Packages</A> instantly from the comfort of your browser
+          Find <A href="https://virtualpinballpackages.vercel.app/search">Virtual Pinball Packages</A> instantly from the comfort of your browser and install with scoop.
 		  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Vpinball_cover.png" alt="Visual Pinball"></img>
         </Heading>
         {props.children}
