@@ -15,7 +15,7 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
           <Link to="/"></Link> 
         </Heading>
         <Heading size="sm">
-          Find Virtual Pinball Resources, like tables, image wheels and etc, instantly from the comfort of your browser and install with scoop.
+          Find <A href="https://github.com/magadan/mgd-packages/tree/master/bucket">Virtual Pinball Resources</A>, like tables, image wheels and etc, instantly from the comfort of your browser and install with scoop.
 		  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Vpinball_cover.png" alt="Visual Pinball"></img>
         </Heading>
         {props.children}
