@@ -13,7 +13,7 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
     <header {...props}>
       <Box pt="1rem" pb="1rem" pl="20vw" pr="20vw" bg="gray.100">
         <Heading size="xl">
-		  <Image boxSize='100px' objectPosition='center' src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball"/>
+		  <Image objectPosition='center' src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball"/>
           <Link to="/"></Link> 
         </Heading>
         <Heading size="sm">
