@@ -47,14 +47,13 @@ function SearchResult(props: SearchResultProps) {
           <A href={props.manifest.checkver.github} title="Source Code">
             <Icon as={GitMerge} />
           </A>
-		  
+		  <img src={props.manifest.license}</img>
         )}
       </Heading>
       <Divider />
       <div>
         <Tag>{props.manifest.version}</Tag> <Tag>{props.manifest.bucket}</Tag>
       </div>
-	  <img src={props.manifest.license}</img>
       <Text>{props.manifest.description}</Text>
       <p hidden={props.manifest.bucket === "main"}>
         <CopyCode code={`scoop bucket add ${props.manifest.bucket}`} />
