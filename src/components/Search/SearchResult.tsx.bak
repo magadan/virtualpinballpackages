@@ -13,6 +13,7 @@ import CopyCode from "../CopyCode";
 import Manifest from "../../types/Manifest";
 import { Link } from "react-router-dom";
 import { FileText, GitMerge, Link as LinkIcon } from "react-feather";
+import { Image } from '@chakra-ui/react';
 
 interface SearchResultProps extends BoxProps {
   manifest: Manifest;
