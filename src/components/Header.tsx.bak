@@ -3,7 +3,7 @@ import A from "./A";
 import { Heading, Box } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { Image } from '@chakra-ui/react';
-import { Center } from '@chakra-ui/react';
+import { Center, Square, Circle } from '@chakra-ui/react';
 
 /**
  * Header for any page
