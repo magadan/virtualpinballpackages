@@ -51,7 +51,7 @@ function SearchResult(props: SearchResultProps) {
       </Heading>
       <Divider />
       <div>
-        <Tag>{props.manifest.version}</Tag> <Tag>{props.manifest.bucket}</Tag><Tag>{props.manifest.license}</Tag>
+        <Tag>{props.manifest.version}</Tag> <Tag>{props.manifest.bucket}</Tag> <Tag>{props.manifest.license}</Tag>
       </div>
       <Text>{props.manifest.description}</Text>
       <p hidden={props.manifest.bucket === "main"}>
