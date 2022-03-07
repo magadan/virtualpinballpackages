@@ -6,6 +6,7 @@ export default interface Manifest {
   version: string;
   bucket: string;
   description: string;
+  license: string;
 }
 
 interface Checkver {
