@@ -12,12 +12,12 @@ function Header(props: React.ComponentPropsWithRef<"header">) {
     <header {...props}>
       <Box pt="1rem" pb="1rem" pl="20vw" pr="20vw" bg="gray.100">
         <Heading size="xl">
-		  <Image src="https://magadan.github.io/virtualpinballpackages/logo.png" alt="Visual Pinball" align="middle"/>
+		  <Image src="https://magadan.github.io/virtualpinballpackages/logo.png" boxSize='100px' alt="Visual Pinball" align="middle"/>
           <Link to="/"></Link> 
         </Heading>
         <Heading size="sm">
           Find <A href="https://github.com/magadan/mgd-packages/tree/master/bucket">Virtual Pinball Resources</A> instantly from the comfort of your browser, like tables, wheels images and etc  and install with scoop.
-		  <Image src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Vpinball_cover.png" alt="Visual Pinball" align="middle"/>
+		  <Image src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Vpinball_cover.png" alt="Visual Pinball" boxSize='100px' align="middle"/>
         </Heading>
         {props.children}
       </Box>
