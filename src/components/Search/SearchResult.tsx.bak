@@ -54,7 +54,7 @@ function SearchResult(props: SearchResultProps) {
       <div>
         <Tag>{props.manifest.version}</Tag> <Tag>{props.manifest.bucket}</Tag>
       </div>
-	  <img src={props.manifest.license}</img>
+	  <img src="{props.manifest.license}"</img>
       <Text>{props.manifest.description}</Text>
       <p hidden={props.manifest.bucket === "main"}>
         <CopyCode code={`scoop bucket add ${props.manifest.bucket}`} />
