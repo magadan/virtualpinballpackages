@@ -32,7 +32,7 @@ function SearchResult(props: SearchResultProps) {
       p="1em"
       {...props}
     >
-      <Heading size='lg' fontSize='25px>
+      <Heading size='lg' fontSize='25px'>
         <Link
           to={`/bucket/${props.manifest.bucket}/manifest/${props.manifest.name}`}
         >
